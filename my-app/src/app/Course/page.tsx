@@ -66,7 +66,7 @@ interface Course {
   
                 <div key={index} 
                 className="flex flex-col w-[20rem] mx-2 rounded-lg shadow-md my-3 bg-blue-300">
-                  <Link href={`/Course/${items.subject}`}>
+                  {/* <Link href={`/Course/${items.subject}`}> */}
                   <h1
                     className="text-4xl text-gray-700 p-3 min-h-[15rem]  border-b-2 w-full"
                   >
@@ -88,7 +88,7 @@ interface Course {
                       />
                     </div>
                   </div>
-                  </Link>
+                  {/* </Link> */}
                 </div>
               ))}
             </div>
