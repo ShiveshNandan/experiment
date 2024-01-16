@@ -1,12 +1,10 @@
 "use client";
-import { allCourses } from "@/app/API/HandleApi";
+
 import Navbar from "@/app/navbar";
-import React, { useEffect, useState } from "react";
-import Loading from "@/app/Course/Loading";
 import Link from "next/link";
-// import book from "@/public/books.png"
-// import video from "@/public/"
-import Image from 'next/image';
+import { useEffect, useState } from "react";
+import { allCourses } from "@/app/API/HandleApi";
+import Loading from "@/app/Course/Loading";
 
 interface Course {
   id: number;
