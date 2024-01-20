@@ -7,8 +7,8 @@ module.exports.getCourses = async (req,res) => {
 }
 
 module.exports.uploadCourses = async (req,res) => {
-    const {subject,id,notes,playlist,pyq,book} = req.body;
-    Course.create({subject,id,notes,playlist,pyq,book})
+    const {subject,course,id,notes,playlist,pyq,book} = req.body;
+    Course.create({subject,course,id,notes,playlist,pyq,book})
     // res.send("uploaded")
     .then((data) => {
         console.log("added successfully");
