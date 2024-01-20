@@ -22,7 +22,7 @@ const courseSchema = new mongoose.Schema({
         require : true
     },
     book: {
-        type : Object,
+        type : Array,
         require : true
     }
 })
