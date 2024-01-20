@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.port  || 5000;
 
 
 const mongooseURL ="mongodb+srv://kshivesh929:I8KpYqCes6z0cHcN@cluster0.0baltkl.mongodb.net/?retryWrites=true&w=majority"
